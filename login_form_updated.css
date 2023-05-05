@@ -1,0 +1,642 @@
+ /* .lp-element h2
+  {
+  	margin-top:0px;
+  }*/
+  .modal-backdrop
+  {
+    z-index:0!important;
+    display:none;
+  }
+ /* div.lp-pom-root .lp-element.lp-code{
+  	overflow:visible!important;
+  }*/
+  .registration_modal.modal
+  {
+  	background-color: rgba(0,0,0,0.5);
+    -webkit-transform: translateZ(0);
+  }
+  .modal-content
+  {
+    background-color:#ffffff!important;
+  }
+  .registration_modal #first_screen
+  {
+  	margin-bottom:75px;
+  }
+  .registration_modal #second_screen
+  {
+  	display:none;
+  }
+  .registration_modal .registration_form
+  {
+  	background-color: transparent!important;
+  }
+  .registration_modal .modal-content
+  {
+    border-radius: 10px;
+    box-shadow: 0px 5px 14.94px 3.06px rgba(0, 0, 0, 0.17);
+    background-image: url(https://uploads-ssl.webflow.com/61533e9e2befceaf2536f2b9/6454f369294e1835a3913e29_form-bg-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .registration_modal .modal-dialog
+  {
+    max-width:435px!important;
+  }
+  .registration_modal .head_text
+  {
+    color: #000000;
+    font-family: montserrat;
+  }
+  .registration_modal .register_heading
+  {
+    font-size: 40px;
+    font-family:'Montserrat';
+    line-height: 52px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 55px;
+    text-align:center
+  }
+  .registration_modal .register_sub_heading
+  {
+  	text-align:center;
+    font-family:'Montserrat';
+    font-weight:100;
+    font-size:22px;
+    margin-bottom: 33px;
+  }
+  .registration_modal .register_submit
+  {
+    font-family: 'Nunito Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    color: black;
+  }
+  .registration_modal .register_submit.disabled,
+  .registration_modal .register_submit.disabled:hover
+  {
+    background-color: #f2f2f2; 
+    color:#a6a6a6;
+    opacity:1
+  }
+  .registration_modal .register_submit
+  {
+  	background-color: #ffc766;
+  }
+  .registration_modal .register_submit:hover
+  {
+  	background-color: #fda40a;
+  }
+  .registration_modal .styled_button
+  {
+  	width: 100%;
+  	height: 66px;
+  	border-radius: 25px;
+  }
+  .registration_modal .google_button
+  {
+  	background: #dc4e41;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Nunito Sans';
+    font-size:18px;
+    text-decoration: none;
+    margin-bottom:12px;
+    width:100%;
+    height:66px;
+    border-radius: 33px;
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .registration_modal .google_button:hover
+  {
+  	background-color: #c42d20;
+  }
+  .registration_modal .register_label_google
+  {
+  	font-family:'Nunito Sans';
+    font-weight:100;
+    color:#7f7f7f;
+    font-size: 18px;
+    margin-bottom:25px;
+  }
+  .registration_modal .modal-body
+  {
+  	padding:0px 50px 20px;
+  }
+  .registration_modal .register_label
+  {
+  	font-family:'Nunito Sans';
+    font-weight:500;
+    color: #404040;
+    font-size:18px;
+    margin-bottom: 20px;
+  }
+  .registration_modal .popup_google_image
+  {
+  	width:auto;
+    margin-right:5px;
+  }
+  .registration_modal .popup_google_container
+  {
+  	text-align:center;
+  }
+  .registration_modal .align_center_button
+  {
+  	margin-top:80px;
+    margin-bottom: 25px;
+    text-align:center;
+  }
+  .registration_modal .form-control
+  {
+  	font-family: 'Nunito Sans'!important;
+  	font-size: 14px;
+  	color: #000000;
+  }
+  .registration_modal .has-error .form-control
+  {
+  	border-color: rgb(220, 78, 65);
+    box-shadow:none;
+  }
+.registration_modal .form-control:focus{
+  border-color: #fda40a !important;
+  box-shadow: none !important;
+}
+  .registration_modal .has-error .form-control-feedback
+  {
+    line-height:40px;
+  }
+  .registration_modal .has-success .form-control-feedback
+  {
+    line-height:44px;
+  }
+  .registration_modal .form-control,
+  .registration_modal .has-success .form-control,
+  .registration_modal .has-error .form-control
+  {
+    box-shadow:none;
+  }
+  .registration_modal .has-error .form-control-feedback
+  {
+      color: rgb(220, 78, 65);
+  }
+  .registration_modal .has-feedback label~.form-control-feedback 
+  {
+    top: 40px;
+  }
+  .registration_modal .has-success .form-control-feedback
+  {
+  	border-color: #fda40a;
+  	color: #fda40a;
+  }
+  .registration_modal .has-success .form-control
+  {
+  	border-color: #fda40a;
+  }
+  .registration_modal #container_email
+  {
+  	margin-bottom:30px;
+  }
+  .registration_modal .forgot_password
+  {
+    font-family:'Nunito Sans';
+    font-weight:100;
+    font-size:16px;
+  	color: #7f7f7f;
+    margin-top: 30px;
+    margin-bottom: 36px;
+  }
+  .registration_modal .tnc
+  {
+  	border-bottom: none;
+  }
+  .registration_modal .reg_tnc span,
+  .registration_modal .reg_check:checked ~ span
+  {
+  	font-family:'Nunito Sans';
+    font-weight:100;
+    color: #7f7f7f;
+    font-size:16px;
+  }
+  .registration_modal .reg_check:checked ~ span > a.tnc,
+  .registration_modal .reg_check:checked ~ span > a.tnc:after,
+  .registration_modal .reg_check:checked ~ span
+  {
+  	color:#7f7f7f!important;
+  }
+  .registration_modal .reg_check + label:after{
+  	border: 1px solid #a6a6a6;
+  	border-radius:3px;
+  }
+  .registration_modal .reg_tnc.notCheckedBoxError .reg_check + label:after{
+  	/*border: 1px solid #dc4e41;*/
+    border-radius:3px;
+  }
+  .registration_modal .reg_tnc.notCheckedBoxError span,
+  .registration_modal .reg_tnc.notCheckedBoxError span a
+  {
+  	/*color:#ff6060 !important;*/
+  }  
+  .registration_modal .reg_tnc.notCheckedBoxError span a:after
+  {
+  	/*background-color:#ff6060 !important;*/
+  }
+  .registration_modal .reg_tnc.notCheckedBoxError .reg_check:checked ~ span,
+  .registration_modal .reg_tnc.notCheckedBoxError .reg_check:checked ~ span a
+  {
+  	color:#7f7f7f!important;    
+  }
+  .registration_modal .reg_tnc.notCheckedBoxError .reg_check:checked ~ span a:after
+  {
+  	background-color:#7f7f7f!important;    
+  }
+  .registration_modal .reg_tnc.notCheckedBoxError .reg_check:checked + label:after
+  {
+  	border-color:#7f7f7f!important;
+  }
+  .registration_modal .reg_check:checked ~ span
+  {
+  	
+  }
+  .registration_modal .reg_check:checked + label:after
+  {
+  	background-color: #fda40a;
+  }
+  .registration_modal .reg_check:checked + label:before
+  {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    border-left-color: white;
+    border-bottom-color: white;
+    height: 6px;
+    left: 2px;
+    top: 0px;
+    width: 12px;
+    transform: rotate(-45deg);
+    background: transparent;
+  }
+  .registration_modal .reg_tnc span a,
+  .registration_modal .reg_tnc.notCheckedBoxError span a  
+  {
+    color: #fda40a!important;
+    position:relative;
+    font-weight: 600;
+  }
+  .registration_modal .forgot_password a,
+  .registration_modal .reg_tnc span a:hover
+  {
+  	color: #fda40a !important;
+  	position:relative!important;
+  }
+  .registration_modal .reg_check:checked ~ span > a.tnc:hover
+  {
+  	color: #fda40a!important;
+  }
+  .registration_modal .forgot_password a:hover,
+  .registration_modal .reg_tnc span a:hover
+  {
+  	text-decoration:none;
+  	border-bottom: 2px solid #fda40a !important;
+  }
+  .registration_modal .forgot_password a:after,
+  .registration_modal .reg_tnc span a:after
+  {
+  	content:'';
+    width:100%;
+    height:1px;
+    position:absolute;
+    top:100%;
+    left:0px;
+  }
+  .registration_modal .forgot_password a
+  {
+    color: #fda40a!important;
+    font-weight: 600;
+  }
+  .registration_modal .forgot_password a:after
+  {
+  }
+  .registration_modal .reg_tnc span a:after
+  {
+    background-color: #ffffff!important;
+  }
+  .registration_modal .reg_tnc span a:hover:after,
+  .registration_modal .reg_tnc.notCheckedBoxError .reg_check:checked ~ span a:hover:after
+  {
+  }
+  .registration_modal .glyphicon-remove:before
+  {
+    content: url('https://e-gmat.com/wp-content/uploads/2020/02/invalid.png')!important;
+  }
+   .registration_modal .glyphicon-ok:before,
+   .registration_modal .form-control-feedback.null:before
+  {
+    content: url('https://uploads-ssl.webflow.com/61533e9e2befceaf2536f2b9/6454fa817ae02d906a0ba690_valid.png');
+  }
+  .registration_modal .form-control
+  {
+  	height:40px;
+  }
+  .registration_modal .error
+  {
+    font-family:'Nunito Sans';
+    font-weight:400;
+    font-size:14px;
+    line-height:18px;
+    font-style: italic;
+    margin-bottom:30px;
+  }
+  .registration_modal .close,
+  .registration_modal .close:hover
+  {
+  	opacity:1;
+  }
+  .registration_modal_trigger .label
+  {
+  	font-size:20px;
+    font-weight: 600;
+    line-height:22px;
+    color:#000000;
+  }
+  .registration_modal .google_button
+  {
+  	position:relative;
+    text-align:center;
+  }
+  .registration_modal .google_button span
+  {
+  	position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  .google_button span:last-child
+  {
+    width: 100%;
+    left: 17px;
+  }
+  .google_button span:first-child
+  {
+    left: 25px;
+  }
+  /*.lp-pom-button
+  {
+  	z-index:0!important;
+  }*/
+  
+  /*Lohith's custom styles*/
+  .btn_indent
+  {
+  	text-indent: 30px;
+    font-weight: 400!important;
+  }
+  .font18 .label
+  {
+  font-size: 18px!important;
+  font-weight: 400!important;
+  line-height: 22px!important;
+  color: #000000!important;
+  }
+  
+  .pop_zindex
+  {
+  z-index: 9999!important;
+  }
+   /*Lohith's custom styles*/
+  
+  /*validation messages css starts here*/
+  .registration_modal .form-group .help-block[data-fv-result="INVALID"]
+  {
+  	display:block!important;
+    margin-top: 13px;
+  }
+  .registration_modal .form-group .help-block
+  {
+    font-family:'Nunito Sans';
+  	text-align:right;
+    color: #dc4e41!important;
+    font-style:italic;
+    font-size:14px;
+  }
+  .styled_blue_button span.label
+  {
+  	color:#000000;
+  }
+  .styled_blue_button:hover span.label
+  {
+  	color:#000000;
+  }
+  .styled_yellow_button span.label
+  {
+  	color: #000000;
+  }
+  .styled_yellow_button:hover span.label
+  {
+  	color: #000000;
+  }
+  .styled_white_button span.label
+  {
+  	color: #4FBDF4
+  }
+  .styled_white_button:hover span.label
+  {
+  	color: #ffffff;
+  }
+  .navigation_buttons .label
+  {
+  	font-size: 24px;
+    line-height:25px;
+    color:#7f7f7f;
+  }
+  .navigation_buttons:hover .label
+  {  	
+    color:#ffffff;
+  }
+  .registration_modal_trigger
+  {
+  	cursor:pointer;
+    font-size:18px!important;
+  }
+  .registration_modal .register_submit
+  {
+  	border-width: 0px!important;
+  }
+  .registration_modal .modal-header
+  {
+  	border-bottom:none;
+  }
+  .registration_modal .email_link_container
+  {
+  	margin-top:17px;
+    margin-bottom:30px;
+  }
+  .registration_modal .email_link_container p
+  {
+  	font-size: 20px;
+  	font-weight: 400;
+  	font-family: 'Nunito Sans';
+  	line-height:30px;
+  	color: #a6a6a6;
+  	text-align:center;
+  }
+  .registration_modal .email_link_container p span.email_link
+  {
+  	font-size:20px;
+    color:#0098db;    
+    cursor:pointer;
+    margin-left:15px;
+  }
+  .registration_modal .form-control
+  {
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    padding: 12px;
+  }
+  .registration_modal .form-control::placeholder
+  {
+  	color:#7f7f7f;
+    font-family:'Nunito Sans';
+    font-weight:400;    
+    font-size:14px;
+  }
+  .styled_google_button span.label
+  {
+  	color:#ffffff!important;
+    line-height:22px!important;
+    font-size:100%!important;
+    font-weight:400!important;
+  }
+  .registration_modal #forgot_password
+  {
+  	display:none!important;
+  }
+  .registration_modal .error_tnc
+  {
+  	color:#dc4e41;
+    font-family: 'Nunito Sans';
+    display:none;
+    margin-bottom:15px;
+  }
+  .registration_modal .close
+  {
+  	font-size:12px;
+    font-weight:300;
+    color: #777;
+  }
+  .registration_modal .start_with_email_btn
+  {
+  	width: 100%;
+  	font-size:20px;
+  	height: 50px;
+  }
+  .registration_modal .align_left
+  {
+    text-align:left;
+    margin-top:75px;
+    margin-bottom:10px;
+  }
+  .registration_modal .reg_tnc
+  {
+    margin-top:25px;
+  }
+  .modal-header .close {
+	  margin-top: 10px !important;
+	  margin-right: 20px !important; 
+  }
+  
+a:link { text-decoration: none !important; }
+
+a:visited { text-decoration: none !important; }
+
+a:hover {
+	text-decoration: underline;
+	color: #000000 !important;
+}
+
+a:active { text-decoration: none !important; }
+
+.reg_tnc{
+  background:#ffffff;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  height: 0px !important;
+  width: 0px;
+  margin: 0 0 0;
+  display: none;
+}
+
+.checkbox, .checkbox label{
+	padding-left:0px !important;
+}
+.checkbox span{
+  font-family: 'Nunito Sans' !important;
+  font-weight: 300 !important;
+  color: #7f7f7f !important;
+  font-size: 16px !important;
+  font-style:italic !important;
+}
+
+body{
+	font-family: 'Nunito Sans' !important;
+	font-weight: 400 !important;
+}
+
+  /*validation messages css ends here*/
+  @media (min-width: 768px){
+    .modal-sm
+    {
+      width: 435px!important;
+    }
+  }
+   @media (max-width: 768px){
+    .modal-dialog
+    {
+      margin: 0px auto!important;
+    }
+  }
+  @media (max-width: 600px){
+    .navigation_buttons span.label
+    {
+      font-size:14px;
+      line-height:18px;      
+    }
+    .registration_modal_trigger .label
+    {
+      font-size:18px;
+      line-height:18px;
+    }
+    .modal-dialog
+    {
+      padding-right:0px!important;
+    }
+    .styled_google_button span.label
+    {
+    font-size:14px!important;
+      line-height:18px!important;
+    }
+  }
+  @media (max-width: 435px){
+    .modal-sm
+    {
+      max-width: calc(100% - 30px) !important;
+      width: calc(100% - 30px) !important;
+    }
+    .registration_modal .styled_button
+    {      
+      width: 100%;
+    }    
+    .registration_modal .register_sub_heading
+    {
+      line-height: 25px;
+    }
+    .registration_modal .modal-body
+    {
+      padding: 10px 25px;
+    }
+    
+  }
